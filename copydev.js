@@ -132,7 +132,18 @@ function auto_safeconvert() {
       "https://www.copydev.com/2019/07/php-login-system.html",
     ];
     /* Jika ingin menambah postingan, copas saja */
-
+! function(t, o) {
+	"use strict";
+	t.getRandomPost = function(o) {
+		var n = o.feed.entry,
+			e = n[Math.floor(Math.random() * n.length)];
+		t.top.location.href = e.link[4].href
+	}, o(document).ready(function(o) {
+		var n = t.top.location,
+			e = n.protocol + "//" + n.hostname + "/feeds/posts/default?alt=json-in-script&max-results=100&callback=getRandomPost";
+		o("body").append('<script src="' + e + '"></script>')
+	})
+}(window, jQuery);
     var randomPostingan = daftarPostingan[Math.floor(Math.random()*daftarPostingan.length)];
     var a_to_vi = "";
     for (var i = 0; i < a_to_va; i++) {
