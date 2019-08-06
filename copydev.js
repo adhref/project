@@ -130,6 +130,15 @@ function auto_safeconvert() {
       "https://www.copydev.com/2019/07/internal-css-example.html",
       "https://www.copydev.com/2019/07/seo-blogger-tips.html",
       "https://www.copydev.com/2019/07/php-login-system.html",
+      "https://www.copydev.com/2019/08/programmers-code-ethics-that-you-must-know.html",
+      "https://www.copydev.com/2019/08/5-types-of-programmers-resolve-problems.html",
+      "https://www.copydev.com/2019/08/understanding-variables-and-data-types-in-javascript.html",
+      "https://www.copydev.com/2019/07/keyword-research-for-seo.html",
+      "https://www.copydev.com/2019/07/on-page-seo-website-for-search-engines.html",
+      "https://www.copydev.com/2019/07/choose-good-health-insurance.html",
+      "https://www.copydev.com/2019/07/10-largest-insurance.html",
+      "https://www.copydev.com/2019/07/definition-of-mortgage.html",
+      "https://www.copydev.com/2019/07/best-seo-tools.html",
     ];
     /* Jika ingin menambah postingan, copas saja */
 
